@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">SelfRun Lab icon</title>
+  <desc id="desc">An open loop with an arrowhead running clockwise around a still center point, inside a dark circle: the loop runs by itself, the gap is the human door, the center is the evidence.</desc>
+  <circle cx="64" cy="64" r="60" fill="#101613"/>
+  <path d="M102.64 53.65A40 40 0 1 1 74.35 25.36" fill="none" stroke="#3DDC84" stroke-width="12" stroke-linecap="round"/>
+  <path d="M65.09 13.56L74.35 25.36L60.43 30.94" fill="none" stroke="#3DDC84" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="64" cy="64" r="9" fill="#F3F5F1"/>
+</svg>

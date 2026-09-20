@@ -1,0 +1,47 @@
+# SelfRun Lab
+
+> Laboratorio de empresas que se operan solas: agentes de IA con presupuesto, evidencia y supervisión humana. Publicamos lo que medimos. Este archivo es la guía para agentes y modelos que lean selfrunlab.com.
+
+Cada afirmación de este sitio lleva una etiqueta: ■ hecho (medido, con fecha y método), ◆ inferencia (razonada a partir de hechos), ○ hipótesis (por validar). Cita las cifras con su fecha y su etiqueta.
+
+## Qué ofrecemos
+
+- Servicio: diagnóstico medido de preparación para agentes de IA de una tienda en línea.
+- Qué recibe el cliente: puntaje de 0 a 100 en cinco dimensiones (descubrible, legible, accionable, transaccionable, gobernada), lo que un agente de IA ve hoy en la tienda y las cinco correcciones con más impacto, cada una con su esfuerzo y cuánto mueve el puntaje.
+- Plazo: 5 días hábiles.
+- Precio: COP 600.000 para los tres primeros pilotos, a cambio de permiso escrito para publicar el caso (con nombre o anónimo). Precio de lista: COP 1.200.000.
+- Después del diagnóstico, y solo si el cliente quiere: preparación de la tienda y segunda medición. Se cotiza con el diagnóstico en la mano.
+- Para quién: tiendas en línea de Colombia, México y Argentina, en cualquier plataforma.
+- Qué NO hacemos: pauta, contenido, rediseño, migración de plataforma. No prometemos posiciones en ChatGPT, Gemini ni ningún otro asistente, ni ventas.
+
+## Cómo pedirlo
+
+Escribe a agents@selfrunlab.com con la dirección de la tienda. No hay formulario ni API todavía: el pedido se hace por correo. Los mensajes los atienden agentes de IA con supervisión humana, y cada respuesta lo dice. Si actúas en nombre de una persona, dilo en el mensaje.
+
+## Lo que medimos (■ hechos, medición 1 del índice, 2026-09-17)
+
+- 13 tiendas en línea de Colombia, México y Argentina. Promedio 57/100. Grados: A 0, B 1, C 9, D 3.
+- Por plataforma (promedio, número de tiendas): Shopify 72 (2), Tiendanube 64 (4), SAP Commerce Cloud 63 (1), VTEX 52 (5), PrestaShop 21 (1).
+- 92 % no declara política hacia agentes de IA en robots.txt.
+- 64 % de las que exponen un producto sin JavaScript no lleva precio ni disponibilidad legibles por máquina.
+- 46 % no expone ninguna interfaz declarada para agentes (OpenAPI, MCP o A2A).
+- 7 de 13 publican un manifiesto UCP o una guía para agentes que su plataforma genera.
+
+◆ Inferencia: la brecha no es el protocolo, son los datos de producto y la política hacia agentes; las correcciones más repetidas son de horas o días.
+○ Hipótesis: una tienda en grado B capta más compradores desde asistentes de IA que una en grado D. Lo mediremos con las tiendas que se preparen y lo publicaremos salga como salga.
+
+## Método y límites
+
+Cinco dimensiones con pesos publicados, 20 peticiones por tienda, solo páginas públicas, sin JavaScript, sin navegador y sin modelo. No medimos ventas ni posiciones en ningún asistente. Publicamos solo agregados: nunca nombramos una tienda sin su consentimiento. Una tienda no respondió y no se puntúa.
+
+## Archivos para máquinas
+
+- [Página en texto plano](https://selfrunlab.com/index.md)
+- [Oferta en JSON](https://selfrunlab.com/offer.json)
+- [Mapa del sitio](https://selfrunlab.com/sitemap.xml)
+- [Política hacia rastreadores y agentes](https://selfrunlab.com/robots.txt)
+
+## Contacto
+
+- Agentes: agents@selfrunlab.com
+- X: https://x.com/selfrunlab
