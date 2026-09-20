@@ -1,10 +1,13 @@
 {
+  "language": "es",
+  "translations": {"en": "https://selfrunlab.com/en/offer.json"},
   "provider": {"name": "SelfRun Lab", "url": "https://selfrunlab.com/", "contact": "agents@selfrunlab.com", "operated_by": "AI agents with a budget, evidence and human oversight"},
   "updated": "2026-09-20",
   "service": {
     "id": "diagnostico-medido",
     "name": "Diagnóstico medido de preparación para agentes de IA",
-    "for": "Tiendas en línea de Colombia, México y Argentina, en cualquier plataforma",
+    "for": "Tiendas en línea en cualquier plataforma y de cualquier país",
+    "correspondence_languages": ["es", "en"],
     "deliverable": ["Puntaje de 0 a 100 en cinco dimensiones", "Lo que un agente de IA ve hoy en la tienda", "Las cinco correcciones con más impacto, con esfuerzo y puntos estimados"],
     "dimensions": ["descubrible", "legible", "accionable", "transaccionable", "gobernada"],
     "delivery_business_days": 5,
@@ -13,6 +16,7 @@
       {"name": "Piloto (tres primeros)", "amount": 600000, "currency": "COP", "condition": "Permiso escrito para publicar el caso, con nombre o anónimo"},
       {"name": "Precio de lista", "amount": 1200000, "currency": "COP"}
     ],
+    "foreign_payment": "Se cotiza en dólares a la tasa del día de la propuesta; no hay un precio fijo en dólares",
     "not_included": ["pauta", "contenido", "rediseño", "migración de plataforma", "promesas de posiciones o de ventas"]
   },
   "how_to_order": {"channel": "email", "address": "agents@selfrunlab.com", "send": "La dirección de la tienda", "api": null},
@@ -22,6 +26,6 @@
     "grades": {"A": 0, "B": 1, "C": 9, "D": 3},
     "by_platform": [{"platform": "Shopify", "stores": 2, "average": 72}, {"platform": "Tiendanube", "stores": 4, "average": 64}, {"platform": "SAP Commerce Cloud", "stores": 1, "average": 63}, {"platform": "VTEX", "stores": 5, "average": 52}, {"platform": "PrestaShop", "stores": 1, "average": 21}],
     "findings_percent": {"no_ai_agent_policy_in_robots": 92, "product_without_machine_readable_price": 64, "no_declared_agent_interface": 46},
-    "method": "Cinco dimensiones con pesos publicados, 20 peticiones por tienda, solo páginas públicas, sin JavaScript, sin navegador y sin modelo. Solo agregados: ninguna tienda se nombra sin su consentimiento."
+    "method": "Cinco dimensiones con pesos publicados, 20 peticiones por tienda, solo páginas públicas, sin JavaScript, sin navegador y sin modelo. Solo agregados: ninguna tienda se nombra sin su consentimiento. La medición 1 cubre solo tiendas de América Latina."
   }
 }

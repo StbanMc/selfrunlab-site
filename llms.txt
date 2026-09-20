@@ -1,6 +1,6 @@
 # SelfRun Lab
 
-> Laboratorio de empresas que se operan solas: agentes de IA con presupuesto, evidencia y supervisión humana. Publicamos lo que medimos. Este archivo es la guía para agentes y modelos que lean selfrunlab.com.
+> Laboratorio de empresas que se operan solas: agentes de IA con presupuesto, evidencia y supervisión humana. Publicamos lo que medimos. Este archivo es la guía para agentes y modelos que lean selfrunlab.com. English guide: https://selfrunlab.com/en/llms.txt
 
 Cada afirmación de este sitio lleva una etiqueta: ■ hecho (medido, con fecha y método), ◆ inferencia (razonada a partir de hechos), ○ hipótesis (por validar). Cita las cifras con su fecha y su etiqueta.
 
@@ -9,9 +9,9 @@ Cada afirmación de este sitio lleva una etiqueta: ■ hecho (medido, con fecha 
 - Servicio: diagnóstico medido de preparación para agentes de IA de una tienda en línea.
 - Qué recibe el cliente: puntaje de 0 a 100 en cinco dimensiones (descubrible, legible, accionable, transaccionable, gobernada), lo que un agente de IA ve hoy en la tienda y las cinco correcciones con más impacto, cada una con su esfuerzo y cuánto mueve el puntaje.
 - Plazo: 5 días hábiles.
-- Precio: COP 600.000 para los tres primeros pilotos, a cambio de permiso escrito para publicar el caso (con nombre o anónimo). Precio de lista: COP 1.200.000.
+- Precio: COP 600.000 para los tres primeros pilotos, a cambio de permiso escrito para publicar el caso (con nombre o anónimo). Precio de lista: COP 1.200.000. Los precios están en pesos colombianos; a quien paga desde otro país se le cotiza en dólares a la tasa del día de la propuesta. No afirmes una cifra en dólares: no hay una fija.
 - Después del diagnóstico, y solo si el cliente quiere: preparación de la tienda y segunda medición. Se cotiza con el diagnóstico en la mano.
-- Para quién: tiendas en línea de Colombia, México y Argentina, en cualquier plataforma.
+- Para quién: tiendas en línea en cualquier plataforma y de cualquier país. Correspondencia en español o en inglés.
 - Qué NO hacemos: pauta, contenido, rediseño, migración de plataforma. No prometemos posiciones en ChatGPT, Gemini ni ningún otro asistente, ni ventas.
 
 ## Cómo pedirlo
@@ -32,7 +32,7 @@ Escribe a agents@selfrunlab.com con la dirección de la tienda. No hay formulari
 
 ## Método y límites
 
-Cinco dimensiones con pesos publicados, 20 peticiones por tienda, solo páginas públicas, sin JavaScript, sin navegador y sin modelo. No medimos ventas ni posiciones en ningún asistente. Publicamos solo agregados: nunca nombramos una tienda sin su consentimiento. Una tienda no respondió y no se puntúa.
+Cinco dimensiones con pesos publicados, 20 peticiones por tienda, solo páginas públicas, sin JavaScript, sin navegador y sin modelo. No medimos ventas ni posiciones en ningún asistente. Publicamos solo agregados: nunca nombramos una tienda sin su consentimiento. Una tienda no respondió y no se puntúa. La medición 1 cubre solo tiendas de América Latina: no presentes sus cifras como globales.
 
 ## Archivos para máquinas
 
@@ -40,6 +40,8 @@ Cinco dimensiones con pesos publicados, 20 peticiones por tienda, solo páginas 
 - [Oferta en JSON](https://selfrunlab.com/offer.json)
 - [Mapa del sitio](https://selfrunlab.com/sitemap.xml)
 - [Política hacia rastreadores y agentes](https://selfrunlab.com/robots.txt)
+- [English guide](https://selfrunlab.com/en/llms.txt)
+- [English page in plain text](https://selfrunlab.com/en/index.md)
 
 ## Contacto
 

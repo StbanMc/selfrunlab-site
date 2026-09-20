@@ -6,6 +6,8 @@ Lo medimos: de 0 a 100, en cinco dimensiones, con método público y sin tocar t
 
 Etiquetas de esta página: ■ hecho medido · ◆ inferencia · ○ hipótesis.
 
+English version: https://selfrunlab.com/en/index.md
+
 ## Índice de preparación para agentes — medición 1 (2026-09-17)
 
 - ■ 13 tiendas en línea de Colombia, México y Argentina. Promedio 57/100. Grados: A 0, B 1, C 9, D 3. Ninguna llegó al grado A.
@@ -40,6 +42,7 @@ Tu tienda, con el mismo método, en cinco días hábiles:
 
 - Piloto, los tres primeros: COP 600.000. El mismo diagnóstico completo, a mitad de precio, a cambio de tu permiso escrito para publicar el caso, con tu nombre o anónimo.
 - Precio de lista: COP 1.200.000.
+- Los precios están en pesos colombianos (COP). Si pagas desde otro país, cotizamos el valor en dólares a la tasa del día de la propuesta.
 - Después, si quieres, preparamos la tienda y medimos de nuevo. Eso se cotiza con el diagnóstico en la mano.
 - No hacemos: pauta, contenido, rediseño, migración de plataforma ni promesas de posiciones.
 
@@ -61,3 +64,5 @@ Este sitio no usa cookies ni rastreadores. Solo usamos el correo que nos escribe
 ## Pide tu diagnóstico
 
 Escríbele a los agentes: agents@selfrunlab.com, con la dirección de tu tienda. En X: https://x.com/selfrunlab
+
+Operado por agentes de IA con supervisión humana; te decimos quién respondió.

@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SelfRun Lab — What does an AI agent see in your store?</title>
+<meta name="description" content="We measure, from 0 to 100, what an AI agent can see and do in your online store. Public method, real data, no ranking promises. Audit delivered in 5 business days.">
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<link rel="canonical" href="https://selfrunlab.com/en/">
+<link rel="alternate" hreflang="es" href="https://selfrunlab.com/">
+<link rel="alternate" hreflang="en" href="https://selfrunlab.com/en/">
+<link rel="alternate" hreflang="x-default" href="https://selfrunlab.com/">
+<link rel="alternate" type="text/markdown" href="https://selfrunlab.com/en/index.md" title="This page in plain text">
+<link rel="alternate" type="text/plain" href="https://selfrunlab.com/en/llms.txt" title="Guide for agents">
+<link rel="alternate" type="application/json" href="https://selfrunlab.com/en/offer.json" title="The offer in JSON">
+<link rel="sitemap" type="application/xml" href="https://selfrunlab.com/sitemap.xml">
+<meta name="author" content="SelfRun Lab">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="es_CO">
+<meta property="og:site_name" content="SelfRun Lab">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@selfrunlab">
+<meta property="og:title" content="What does an AI agent see in your store?">
+<meta property="og:description" content="We measure it from 0 to 100, with a public method. SelfRun Lab: we publish what we measure.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://selfrunlab.com/en/">
+<meta property="og:image" content="https://selfrunlab.com/share-en.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="SelfRun Lab: 57 out of 100, the measured average of 13 online stores as seen by AI agents.">
+<meta name="twitter:image" content="https://selfrunlab.com/share-en.png">
+<meta name="theme-color" content="#101613">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..900&family=JetBrains+Mono:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://selfrunlab.com/#lab",
+      "name": "SelfRun Lab",
+      "description": "The lab for companies that run themselves. Agents with a budget, evidence and human oversight.",
+      "url": "https://selfrunlab.com/",
+      "logo": "https://selfrunlab.com/icon.svg",
+      "email": "agents@selfrunlab.com",
+      "contactPoint": {"@type": "ContactPoint", "contactType": "sales", "email": "agents@selfrunlab.com", "availableLanguage": ["es", "en"]},
+      "sameAs": ["https://x.com/selfrunlab"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://selfrunlab.com/#site",
+      "url": "https://selfrunlab.com/",
+      "name": "SelfRun Lab",
+      "inLanguage": ["es", "en"],
+      "publisher": {
+        "@id": "https://selfrunlab.com/#lab"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://selfrunlab.com/en/#page",
+      "url": "https://selfrunlab.com/en/",
+      "name": "What does an AI agent see in your store?",
+      "inLanguage": "en",
+      "isPartOf": {"@id": "https://selfrunlab.com/#site"},
+      "about": {"@id": "https://selfrunlab.com/#diagnostico"},
+      "translationOfWork": {"@id": "https://selfrunlab.com/#pagina"}
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://selfrunlab.com/#indice-1",
+      "name": "Agent Readiness Index — measurement 1",
+      "description": "Measurement of 13 online stores in Colombia, Mexico and Argentina on 2026-09-17: average 57/100; grades A 0, B 1, C 9, D 3; 92% with no policy toward AI agents in robots.txt; 64% with no machine-readable price or availability; 46% with no declared interface for agents. Aggregates only: no store is named without its consent.",
+      "creator": {
+        "@id": "https://selfrunlab.com/#lab"
+      },
+      "datePublished": "2026-09-17",
+      "temporalCoverage": "2026-09-17",
+      "spatialCoverage": [
+        "Colombia",
+        "Mexico",
+        "Argentina"
+      ],
+      "inLanguage": "en",
+      "isAccessibleForFree": true,
+      "measurementTechnique": "Five dimensions with published weights, 20 requests per store, public pages only, no JavaScript, no browser and no model",
+      "variableMeasured": [
+        "Agent readiness score (0–100)",
+        "Policy toward AI agents in robots.txt",
+        "Machine-readable price and availability",
+        "Declared interfaces for agents"
+      ],
+      "distribution": {
+        "@type": "DataDownload",
+        "encodingFormat": "application/json",
+        "contentUrl": "https://selfrunlab.com/en/offer.json"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://selfrunlab.com/en/#faq",
+      "inLanguage": "en",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Will you touch my store?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The audit only reads public pages, as any visitor would: 20 requests and no access."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will you publish my name?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Never without your consent. The index publishes aggregates only."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you promise I will sell more?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. We measure what an AI agent can see and do in your store. Whether that turns into sales is a hypothesis we are measuring, and we will publish it however it turns out."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does the audit cost and how long does it take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "COP 600,000 for the first three pilots, in exchange for permission to publish the case; COP 1,200,000 list price. Delivered in 5 business days. If you pay from another country, we quote the amount in US dollars at the exchange rate on the day of the proposal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "My store is not in Latin America. Can you audit it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The method reads public pages and open standards, so it applies to any store, on any platform, in any country. Our first index measured Latin American stores; your score is compared against it, and the report says so. We write to you in English or Spanish."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who do I talk to?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Write to the agents at agents@selfrunlab.com. If your case needs a person, a person handles it."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://selfrunlab.com/#diagnostico",
+      "name": "Measured agent-readiness audit for online stores",
+      "serviceType": "E-commerce audit for AI agents",
+      "provider": {"@id": "https://selfrunlab.com/#lab"},
+      "description": "A score from 0 to 100 across five dimensions, what an AI agent sees in the store today, and the five highest-impact fixes. Delivered in 5 business days.",
+      "offers": [
+        {"@type": "Offer", "name": "Pilot (first three stores)", "price": "600000", "priceCurrency": "COP", "availability": "https://schema.org/LimitedAvailability"},
+        {"@type": "Offer", "name": "List price", "price": "1200000", "priceCurrency": "COP", "availability": "https://schema.org/InStock"}
+      ]
+    }
+  ]
+}
+</script>
+<link rel="stylesheet" href="../site.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="SelfRun Lab, home">
+      <svg viewBox="0 0 128 128" aria-hidden="true"><path d="M102.64 53.65A40 40 0 1 1 74.35 25.36" fill="none" stroke="#3DDC84" stroke-width="12" stroke-linecap="round"/><path d="M65.09 13.56L74.35 25.36L60.43 30.94" fill="none" stroke="#3DDC84" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><circle cx="64" cy="64" r="9" fill="#F3F5F1"/></svg>
+      SelfRun Lab
+    </a>
+    <nav aria-label="Sections">
+      <a href="#index">What we measure</a>
+      <a href="#dimensions">Method</a>
+      <a href="#audit">Audit</a>
+      <a href="#price">Price</a>
+      <a class="lang" href="../" hreflang="es" lang="es" aria-label="Versión en español">ES</a>
+      <a class="btn" href="#order">Get yours</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero" style="padding-top:clamp(48px,8vw,104px)">
+  <div class="wrap">
+    <div>
+      <p class="kicker mono">The lab for companies that run themselves</p>
+      <h1>What does an <em>AI agent</em> see in your store?</h1>
+      <p class="lede">We measure it. From 0 to 100, across five dimensions, with a public method and without touching your site. We tell you what it finds, what it can't read, and the five fixes that move the score the most.</p>
+      <div class="cta">
+        <a class="btn" href="#order">Get your audit →</a>
+        <a class="btn ghost" href="#index">See the data</a>
+      </div>
+      <p class="fine">No promises about rankings in ChatGPT or Gemini. We publish what we measure.</p>
+    </div>
+    <div class="gaugewrap">
+    <div class="gauge" id="gauge" aria-label="Measured average: 57 out of 100">
+      <svg viewBox="0 0 128 128" role="img" aria-hidden="true">
+        <path class="track" d="M102.64 53.65A40 40 0 1 1 74.35 25.36"/>
+        <g class="sweep"><line x1="64" y1="33" x2="64" y2="15"/></g>
+        <path class="arc" id="arc" d="M102.64 53.65A40 40 0 1 1 74.35 25.36"/>
+      </svg>
+      <div class="read">
+        <div class="num"><span id="num">57</span><small>/100</small></div>
+        <span class="tag fact">■ Fact</span>
+      </div>
+      <div class="door">the opening is the human door: anyone can step in to supervise</div>
+    </div>
+    <p class="gaugecap">Average of 13 online stores in Colombia, Mexico and Argentina, measured on 2026-09-17. The gauge is our symbol: a loop that runs on its own, with the door left open.</p>
+    </div>
+  </div>
+</section>
+
+<div class="ticker" aria-hidden="true"><div>
+  <span><b>■</b> 13 stores measured</span><span><b>57</b>/100 on average</span><span><b>0</b> at grade A</span><span><b>92%</b> with no policy toward agents</span><span><b>64%</b> with no machine-readable price</span><span><b>46%</b> with no interface for agents</span><span>20 requests per store · no JavaScript · no model</span>
+  <span><b>■</b> 13 stores measured</span><span><b>57</b>/100 on average</span><span><b>0</b> at grade A</span><span><b>92%</b> with no policy toward agents</span><span><b>64%</b> with no machine-readable price</span><span><b>46%</b> with no interface for agents</span><span>20 requests per store · no JavaScript · no model</span>
+</div></div>
+
+<section id="index">
+  <div class="wrap reveal">
+    <p class="kicker mono">Agent Readiness Index · measurement 1</p>
+    <h2>No store reached grade A.</h2>
+    <p class="sub">We measured real online stores in three countries with the same tool, and we publish aggregates only: we never name a store without its consent.</p>
+
+    <div class="facts">
+      <div class="stat"><span class="tag fact">■ Fact</span><div class="big">57<small>/100</small></div><p>Average score. Grades: A 0 · B 1 · C 9 · D 3.</p></div>
+      <div class="stat"><span class="tag fact">■ Fact</span><div class="big">92<small>%</small></div><p>Declare no policy toward AI agents in their <span class="mono" style="text-transform:none">robots.txt</span>.</p></div>
+      <div class="stat"><span class="tag fact">■ Fact</span><div class="big">64<small>%</small></div><p>Of those that show a product without JavaScript, carry no price or availability a machine can read.</p></div>
+      <div class="stat"><span class="tag fact">■ Fact</span><div class="big">46<small>%</small></div><p>Expose no declared interface for agents: no OpenAPI, no MCP, no A2A.</p></div>
+    </div>
+
+    <div class="bars">
+      <div>
+        <h3>Average by platform</h3>
+        <div class="bar"><span>Shopify (2)</span><i style="--w:72%"></i><b>72</b></div>
+        <div class="bar"><span>Tiendanube (4)</span><i style="--w:64%"></i><b>64</b></div>
+        <div class="bar"><span>SAP Commerce (1)</span><i style="--w:63%"></i><b>63</b></div>
+        <div class="bar"><span>VTEX (5)</span><i style="--w:52%"></i><b>52</b></div>
+        <div class="bar"><span>PrestaShop (1)</span><i style="--w:21%"></i><b>21</b></div>
+      </div>
+      <div>
+        <h3>What we read in that data</h3>
+        <p style="margin:0 0 14px;color:var(--mist)"><span class="tag inf">◆ Inference</span><br>The gap is not the protocol: it is product data and the policy toward agents. The most repeated fixes take hours or days, not weeks.</p>
+        <p style="margin:0;color:var(--mist)"><span class="tag hyp">○ Hypothesis</span><br>A grade-B store wins more buyers from AI assistants than a grade-D store. We will measure it with the stores that get ready, and publish it however it turns out.</p>
+      </div>
+    </div>
+    <p class="method"><b style="color:var(--paper)">Method and limits.</b> Five dimensions with published weights, 20 requests per store, public pages only, no JavaScript, no browser and no model. We do not measure sales or rankings in any assistant. One store did not respond and is not scored. We repeat the measurement with the same method. Measurement 1 covers Latin American stores; the method reads open standards, so it applies to a store in any country.</p>
+  </div>
+</section>
+
+<section id="dimensions" class="on-paper">
+  <div class="wrap reveal">
+    <p class="kicker mono">The method</p>
+    <h2>Five questions an agent asks before buying from you.</h2>
+    <div class="dims">
+      <div class="dim"><span class="n">01</span><h3>Discoverable</h3><p>Can it find your catalog? Sitemap, robots, links that do not depend on JavaScript.</p></div>
+      <div class="dim"><span class="n">02</span><h3>Readable</h3><p>Does it understand what you sell? Product, price, currency and availability in data a machine reads.</p></div>
+      <div class="dim"><span class="n">03</span><h3>Actionable</h3><p>Can it do more than look? Declared interfaces: OpenAPI, MCP, A2A, feeds.</p></div>
+      <div class="dim"><span class="n">04</span><h3>Transactable</h3><p>Can it get all the way to the purchase? Shipping, returns and payment with rules it can read.</p></div>
+      <div class="dim"><span class="n">05</span><h3>Governed</h3><p>Did you tell agents what they may do? Agent policy, contact and security.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="audit">
+  <div class="wrap reveal">
+    <p class="kicker mono">The measured audit</p>
+    <h2>Your store, same method. In five business days.</h2>
+    <div class="deliver">
+      <ul class="list">
+        <li><b>Your score from 0 to 100</b>and the breakdown across the five dimensions, compared with the index.</li>
+        <li><b>What an agent sees today</b>page by page: what it finds, what it cannot read, and why.</li>
+        <li><b>The five highest-impact fixes</b>each with its estimated effort and how much it moves the score.</li>
+        <li><b>Without touching your store</b>read-only, public pages. We ask for no access and install nothing.</li>
+        <li><b>Private</b>your result is yours. We publish your case only if you authorize it.</li>
+      </ul>
+      <div class="report" aria-label="Illustrative example of a report">
+        <span class="stamp">Illustrative example · not a real store</span>
+        <div class="hd"><span>Readiness report</span><span>grade C</span></div>
+        <div class="score">58<small>/100</small></div>
+        <div class="row"><span>Discoverable</span><i style="--w:80%"></i><b>80</b></div>
+        <div class="row"><span>Readable</span><i style="--w:45%"></i><b>45</b></div>
+        <div class="row"><span>Actionable</span><i style="--w:30%"></i><b>30</b></div>
+        <div class="row"><span>Transactable</span><i style="--w:65%"></i><b>65</b></div>
+        <div class="row"><span>Governed</span><i style="--w:40%"></i><b>40</b></div>
+        <div class="fix">① Price and availability in server-side JSON-LD · +9<br>② Policy toward agents in robots.txt · +6<br>③ Guide for agents (llms.txt) · +5</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="price" class="on-paper">
+  <div class="wrap reveal">
+    <p class="kicker mono">Price</p>
+    <h2>One price. No fine print.</h2>
+    <div class="prices">
+      <div class="price main">
+        <span class="mono" style="color:var(--pulse)">Pilot · the first three stores</span>
+        <div class="amt">COP 600,000</div>
+        <p>The same full audit at half price, in exchange for your written permission to publish the case: under your name or anonymously, your choice.</p>
+        <ul><li>Delivered in 5 business days</li><li>Private report with score, findings and fixes</li><li>You pay only when you accept the proposal</li></ul>
+        <a class="btn" href="#order" style="align-self:flex-start">I want a pilot →</a>
+      </div>
+      <div class="price">
+        <span class="mono" style="color:var(--run)">List price</span>
+        <div class="amt">COP 1,200,000</div>
+        <p>The measured audit for one store. Afterwards, if you want, we get the store ready and measure again to show the before and after: that is quoted with the audit in hand.</p>
+      </div>
+    </div>
+    <p class="fx">Prices are in Colombian pesos (COP). Paying from another country? We quote the amount in US dollars at the exchange rate on the day of the proposal.</p>
+    <div class="nots" aria-label="What we do not do"><span>Ads</span><span>Content</span><span>Redesign</span><span>Platform migration</span><span>Ranking promises</span></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap reveal">
+    <p class="kicker mono">How it works</p>
+    <h2>Four steps. No meetings.</h2>
+    <div class="steps">
+      <div class="step"><h3>You write</h3><p>One email with your store's address. Nothing else.</p></div>
+      <div class="step"><h3>We measure</h3><p>The tool reads your public pages: 20 requests, touching nothing.</p></div>
+      <div class="step"><h3>You receive</h3><p>The report within five business days, reviewed before it goes out.</p></div>
+      <div class="step"><h3>You decide</h3><p>Fix it yourself, or ask us to get the store ready and measure again.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="on-paper">
+  <div class="wrap reveal">
+    <p class="kicker mono">Who does the work</p>
+    <h2>Agents with a budget, evidence and human oversight.</h2>
+    <div class="cols">
+      <div>
+        <p style="margin-top:0">SelfRun Lab is a lab: we build and operate companies that work with AI agents, and we publish what we measure. This service is run by agents. Every message you receive says so, every claim on this page carries its label —<span class="tag fact" style="margin:0 .3em">■ fact</span><span class="tag inf" style="margin:0 .3em">◆ inference</span><span class="tag hyp" style="margin:0 .3em">○ hypothesis</span>— and a person can step in to supervise or stop at any point.</p>
+        <p>We are not the first or the only ones. We are the ones who show the method.</p>
+      </div>
+      <div>
+        <details><summary>Will you touch my store?</summary><p>No. The audit only reads public pages, as any visitor would: 20 requests and no access.</p></details>
+        <details><summary>Will you publish my name?</summary><p>Never without your consent. The index publishes aggregates only.</p></details>
+        <details><summary>Do you promise I will sell more?</summary><p>No. We measure what an AI agent can see and do in your store. Whether that turns into sales is a hypothesis we are measuring, and we will publish it however it turns out.</p></details>
+        <details><summary>How much does the audit cost and how long does it take?</summary><p>COP 600,000 for the first three pilots, in exchange for permission to publish the case; COP 1,200,000 list price. Delivered in 5 business days. If you pay from another country, we quote the amount in US dollars at the exchange rate on the day of the proposal.</p></details>
+        <details><summary>My store is not in Latin America. Can you audit it?</summary><p>Yes. The method reads public pages and open standards, so it applies to any store, on any platform, in any country. Our first index measured Latin American stores; your score is compared against it, and the report says so. We write to you in English or Spanish.</p></details>
+        <details><summary>Who do I talk to?</summary><p>Write to the agents at agents@selfrunlab.com. If your case needs a person, a person handles it.</p></details>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="order" class="close">
+  <div class="wrap reveal">
+    <p class="kicker mono" style="justify-content:center">Get your audit</p>
+    <h2>Write to <em>the agents.</em></h2>
+    <a class="mail" href="mailto:agents@selfrunlab.com?subject=Audit%20of%20my%20store&body=My%20store%27s%20address%20is%3A%20">agents@selfrunlab.com</a>
+    <p class="sub" style="margin:1.2em auto 0">One email with your store's address is enough. We reply with the next steps.</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>SelfRun Lab · The lab for companies that run themselves · We publish what we measure.</span>
+    <span>No cookies or trackers: we only use the email you send us to reply to you.</span>
+    <span><a href="https://x.com/selfrunlab" rel="noopener">@selfrunlab on X</a> · <a href="llms.txt">guide for agents</a> · <a href="index.md">plain text</a> · <a href="offer.json">offer in JSON</a> · <a href="../" hreflang="es" lang="es">Español</a></span>
+    <span class="disclosure">Run by AI agents under human supervision; we tell you who answered.</span>
+  </div>
+</footer>
+
+<script src="../site.js" defer></script>
+</body>
+</html>

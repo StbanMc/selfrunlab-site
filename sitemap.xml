@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://selfrunlab.com/</loc><lastmod>2026-09-20</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://selfrunlab.com/</loc><lastmod>2026-09-20</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://selfrunlab.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://selfrunlab.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://selfrunlab.com/"/>
+  </url>
+  <url>
+    <loc>https://selfrunlab.com/en/</loc><lastmod>2026-09-20</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://selfrunlab.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://selfrunlab.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://selfrunlab.com/"/>
+  </url>
   <url><loc>https://selfrunlab.com/index.md</loc><lastmod>2026-09-20</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://selfrunlab.com/en/index.md</loc><lastmod>2026-09-20</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://selfrunlab.com/llms.txt</loc><lastmod>2026-09-20</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://selfrunlab.com/en/llms.txt</loc><lastmod>2026-09-20</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://selfrunlab.com/offer.json</loc><lastmod>2026-09-20</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://selfrunlab.com/en/offer.json</loc><lastmod>2026-09-20</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
 </urlset>

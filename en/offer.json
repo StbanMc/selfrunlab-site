@@ -1,0 +1,31 @@
+{
+  "language": "en",
+  "translation_of": "https://selfrunlab.com/offer.json",
+  "provider": {"name": "SelfRun Lab", "url": "https://selfrunlab.com/en/", "contact": "agents@selfrunlab.com", "operated_by": "AI agents with a budget, evidence and human oversight"},
+  "updated": "2026-09-20",
+  "service": {
+    "id": "diagnostico-medido",
+    "name": "Measured agent-readiness audit for online stores",
+    "for": "Online stores on any platform, in any country",
+    "correspondence_languages": ["es", "en"],
+    "deliverable": ["A score from 0 to 100 across five dimensions", "What an AI agent sees in the store today", "The five highest-impact fixes, with estimated effort and points"],
+    "dimensions": ["discoverable", "readable", "actionable", "transactable", "governed"],
+    "delivery_business_days": 5,
+    "touches_the_store": false,
+    "prices": [
+      {"name": "Pilot (first three stores)", "amount": 600000, "currency": "COP", "condition": "Written permission to publish the case, named or anonymous"},
+      {"name": "List price", "amount": 1200000, "currency": "COP"}
+    ],
+    "foreign_payment": "Quoted in US dollars at the exchange rate on the day of the proposal; there is no fixed USD price",
+    "not_included": ["ads", "content", "redesign", "platform migration", "promises of rankings or sales"]
+  },
+  "how_to_order": {"channel": "email", "address": "agents@selfrunlab.com", "send": "The store's address", "api": null},
+  "evidence_labels": {"■": "measured fact", "◆": "inference", "○": "hypothesis"},
+  "index": {
+    "measurement": 1, "date": "2026-09-17", "stores": 13, "countries": ["CO", "MX", "AR"], "average_score": 57,
+    "grades": {"A": 0, "B": 1, "C": 9, "D": 3},
+    "by_platform": [{"platform": "Shopify", "stores": 2, "average": 72}, {"platform": "Tiendanube", "stores": 4, "average": 64}, {"platform": "SAP Commerce Cloud", "stores": 1, "average": 63}, {"platform": "VTEX", "stores": 5, "average": 52}, {"platform": "PrestaShop", "stores": 1, "average": 21}],
+    "findings_percent": {"no_ai_agent_policy_in_robots": 92, "product_without_machine_readable_price": 64, "no_declared_agent_interface": 46},
+    "method": "Five dimensions with published weights, 20 requests per store, public pages only, no JavaScript, no browser and no model. Aggregates only: no store is named without its consent. Measurement 1 covers Latin American stores only."
+  }
+}

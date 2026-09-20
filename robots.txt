@@ -2,6 +2,7 @@
 # Todo el sitio es público y puede leerse, citarse y resumirse con atribución.
 # Guía para agentes: https://selfrunlab.com/llms.txt
 # Versión en texto plano de la página: https://selfrunlab.com/index.md
+# English: https://selfrunlab.com/en/ · https://selfrunlab.com/en/llms.txt · https://selfrunlab.com/en/index.md
 
 User-agent: *
 Allow: /
